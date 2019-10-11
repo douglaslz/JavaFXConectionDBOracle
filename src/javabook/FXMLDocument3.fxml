@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="359.0" prefWidth="364.0" style="-fx-background-color: #ccf2ff;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javabook.FXMLDocumentController3">
+   <children>
+      <Label layoutX="65.0" layoutY="48.0" text="Id" />
+      <Label layoutX="57.0" layoutY="92.0" text="Tittle" />
+      <Label layoutX="51.0" layoutY="127.0" text="Author" />
+      <Label layoutX="59.0" layoutY="166.0" text="Genre" />
+      <TextField id="txt_Id" fx:id="txt_Id" layoutX="149.0" layoutY="45.0" />
+      <TextField id="txt_Tittle" fx:id="txt_Tittle" layoutX="149.0" layoutY="88.0" />
+      <TextField id="txt_Author" fx:id="txt_Author" layoutX="149.0" layoutY="126.0" />
+      <TextField id="txt_Genre" fx:id="txt_Genre" layoutX="148.0" layoutY="164.0" />
+      <TextField id="txt_Price" fx:id="txt_Price" layoutX="149.0" layoutY="203.0" />
+      <TextField id="txt_Quantity" fx:id="txt_Quantity" layoutX="148.0" layoutY="239.0" />
+      <Button id="btninsert" fx:id="btnInsert" layoutX="78.0" layoutY="313.0" mnemonicParsing="false" onAction="#Insert" prefHeight="25.0" prefWidth="51.0" text="Insert" />
+      
+            <Label layoutX="60.0" layoutY="205.0" text="Price" />
+      <Button fx:id="btnSearch" layoutX="80.0" layoutY="275.0" mnemonicParsing="false" onAction="#Search" text="Search" />
+      <Label layoutX="59.0" layoutY="241.0" text="Quantity" />
+      <Button fx:id="btnUpdate" layoutX="151.0" layoutY="275.0" mnemonicParsing="false" onAction="#Update" text="Update" />
+      <Button fx:id="btnDelete" layoutX="153.0" layoutY="313.0" mnemonicParsing="false" onAction="#Delete" prefHeight="25.0" prefWidth="55.0" text="Delete" />
+      <Button fx:id="btnClean" layoutX="230.0" layoutY="275.0" mnemonicParsing="false" onAction="#Clean" prefHeight="25.0" prefWidth="55.0" text="Clean" />
+      <Button fx:id="btnExit" layoutX="232.0" layoutY="313.0" mnemonicParsing="false" onAction="#Exit" prefHeight="25.0" prefWidth="55.0" text="Exit" />
+   </children>
+   
+   
+</AnchorPane>
